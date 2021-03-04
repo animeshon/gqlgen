@@ -12,7 +12,7 @@ import (
 	"github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/animeshon/gqlgen/internal/code"
 )
 
 func TestLoadConfig(t *testing.T) {
@@ -173,8 +173,8 @@ func TestAutobinding(t *testing.T) {
 		cfg := Config{
 			Models: TypeMap{},
 			AutoBind: []string{
-				"github.com/99designs/gqlgen/example/chat",
-				"github.com/99designs/gqlgen/example/scalars/model",
+				"github.com/animeshon/gqlgen/example/chat",
+				"github.com/animeshon/gqlgen/example/scalars/model",
 			},
 			Packages: &code.Packages{},
 		}
@@ -186,8 +186,8 @@ func TestAutobinding(t *testing.T) {
 
 		require.NoError(t, cfg.autobind())
 
-		require.Equal(t, "github.com/99designs/gqlgen/example/scalars/model.Banned", cfg.Models["Banned"].Model[0])
-		require.Equal(t, "github.com/99designs/gqlgen/example/chat.Message", cfg.Models["Message"].Model[0])
+		require.Equal(t, "github.com/animeshon/gqlgen/example/scalars/model.Banned", cfg.Models["Banned"].Model[0])
+		require.Equal(t, "github.com/animeshon/gqlgen/example/chat.Message", cfg.Models["Message"].Model[0])
 	})
 
 	t.Run("with file path", func(t *testing.T) {

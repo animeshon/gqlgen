@@ -4,7 +4,7 @@ import (
 	"go/types"
 	"testing"
 
-	"github.com/99designs/gqlgen/internal/code"
+	"github.com/animeshon/gqlgen/internal/code"
 
 	"github.com/stretchr/testify/require"
 	"github.com/vektah/gqlparser/v2"
@@ -48,7 +48,7 @@ func TestSlicePointerBinding(t *testing.T) {
 func createBinder(cfg Config) (*Binder, *ast.Schema) {
 	cfg.Models = TypeMap{
 		"Message": TypeMapEntry{
-			Model: []string{"github.com/99designs/gqlgen/example/chat.Message"},
+			Model: []string{"github.com/animeshon/gqlgen/example/chat.Message"},
 		},
 	}
 	cfg.Packages = &code.Packages{}

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/99designs/gqlgen/plugin/federation/fedruntime"
+	"github.com/animeshon/gqlgen/plugin/federation/fedruntime"
 )
 
 func (ec *executionContext) __resolve__service(ctx context.Context) (fedruntime.Service, error) {

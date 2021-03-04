@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/lru"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
-	"github.com/99designs/gqlgen/graphql/playground"
+	"github.com/animeshon/gqlgen/graphql"
+	"github.com/animeshon/gqlgen/graphql/handler"
+	"github.com/animeshon/gqlgen/graphql/handler/extension"
+	"github.com/animeshon/gqlgen/graphql/handler/lru"
+	"github.com/animeshon/gqlgen/graphql/handler/transport"
+	"github.com/animeshon/gqlgen/graphql/playground"
 	"github.com/gorilla/websocket"
 )
 

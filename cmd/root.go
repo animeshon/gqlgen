@@ -6,12 +6,12 @@ import (
 	"log"
 	"os"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/animeshon/gqlgen/graphql"
 	"github.com/urfave/cli/v2"
 
 	// Required since otherwise dep will prune away these unused packages before codegen has a chance to run
-	_ "github.com/99designs/gqlgen/graphql/handler"
-	_ "github.com/99designs/gqlgen/handler"
+	_ "github.com/animeshon/gqlgen/graphql/handler"
+	_ "github.com/animeshon/gqlgen/handler"
 )
 
 func Execute() {

@@ -10,10 +10,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/introspection"
-	models "github.com/99designs/gqlgen/integration/models-go"
-	"github.com/99designs/gqlgen/integration/remote_api"
+	"github.com/animeshon/gqlgen/graphql"
+	"github.com/animeshon/gqlgen/graphql/introspection"
+	models "github.com/animeshon/gqlgen/integration/models-go"
+	"github.com/animeshon/gqlgen/integration/remote_api"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )

@@ -110,7 +110,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/animeshon/gqlgen/graphql"
 )
 
 

@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/99designs/gqlgen/client"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler"
+	"github.com/animeshon/gqlgen/client"
+	"github.com/animeshon/gqlgen/graphql"
+	"github.com/animeshon/gqlgen/graphql/handler"
 	"github.com/stretchr/testify/require"
 )
 

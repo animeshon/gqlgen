@@ -13,11 +13,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	introspection1 "github.com/99designs/gqlgen/codegen/testserver/introspection"
-	invalid_packagename "github.com/99designs/gqlgen/codegen/testserver/invalid-packagename"
-	"github.com/99designs/gqlgen/codegen/testserver/otherpkg"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/introspection"
+	introspection1 "github.com/animeshon/gqlgen/codegen/testserver/introspection"
+	invalid_packagename "github.com/animeshon/gqlgen/codegen/testserver/invalid-packagename"
+	"github.com/animeshon/gqlgen/codegen/testserver/otherpkg"
+	"github.com/animeshon/gqlgen/graphql"
+	"github.com/animeshon/gqlgen/graphql/introspection"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )
